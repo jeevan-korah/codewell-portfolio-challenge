@@ -1,7 +1,6 @@
 # Web Developer Portfolio Challenge
 
 Responsice static website is a minimalistic design language.
-
 https://jeevan-korah.github.io/codewell-portfolio-challenge/
 
 ## Features
