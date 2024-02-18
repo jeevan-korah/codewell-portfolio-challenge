@@ -1,0 +1,84 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  height: 50px;
+  padding-inline: 25%;
+  /* background-color: antiquewhite; */
+}
+.nav-bar-name a {
+  font-family: "Prata", serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+.nav-bar-items {
+  display: flex;
+  column-gap: 50px;
+}
+
+.nav-bar-items a {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: hsl(0, 0%, 60%);
+  outline: none;
+}
+.nav-bar-items a:active.nav-bar-items a:focus {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+
+  color: hsl(0, 0%, 60%);
+}
+.nav-bar-button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.nav-button {
+  height: 100%;
+  border-radius: 0;
+  border: none;
+  background-color: hsl(54, 93%, 65%);
+  font-family: "Prata", serif;
+  font-size: 16px;
+  padding: 3px 25px;
+}
+.nav-button:hover {
+  cursor: pointer;
+  background-color: rgb(252, 231, 48);
+  font-weight: 600;
+}
+
+.nav-bar-button svg {
+  align-items: center;
+  display: none;
+}
+@media only screen and (max-width: 1416px) {
+  nav {
+    padding-inline: 10%;
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 900px) {
+  nav {
+    padding-inline: 4%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-bar-items {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .nav-button {
+    display: none;
+  }
+  .nav-bar-button svg {
+    display: inline;
+  }
+}

@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+}
+body {
+  color: hsl(0, 0%, 60%);
+  background-color: hsl(240, 5%, 4%);
+}
+p {
+  font-family: "Inter", sans-serif;
+}
